@@ -6,7 +6,7 @@ const LearningHeaderCourseInfo = ({
   courseNumber,
   courseTitle,
 }) => (
-  <div style={{ minWidth: 0 }}>
+  <div style={{ minWidth: 0, display: "none" }}>
     <span className="d-block small m-0">{courseOrg} {courseNumber}</span>
     <span className="d-block m-0 font-weight-bold course-title">{courseTitle}</span>
   </div>
